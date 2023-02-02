@@ -1,0 +1,77 @@
+.qwixxGrid {
+    width: 75%;
+    border-collapse: collapse;
+    text-align: center;
+}
+  
+.table {
+    cursor: pointer;
+    padding: 8px;
+    position: relative;
+    width: 50px;
+}
+
+.header {
+    background-color: lightgray;
+}
+
+.number {
+    height: 50px;
+    width: 50px;
+}
+
+.red {
+    background-color: red;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    cursor: pointer;
+    padding: 8px;
+    position: relative;
+}
+
+.yellow {
+    background-color: yellow;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    cursor: pointer;
+    padding: 8px;
+    position: relative;
+}
+
+.green {
+    background-color: green;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    cursor: pointer;
+    padding: 8px;
+    position: relative;
+}
+
+.blue {
+    background-color: blue;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    cursor: pointer;
+    padding: 8px;
+    position: relative;
+}
+
+.line {
+    border-left: 1px solid black;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+}
+
+.selected {
+    background-color: darkgray;
+}
+
+.score {
+    margin: 25px;
+}
